@@ -902,3 +902,145 @@ ActionView::Template::Error (identifier '(function(opts, pluginOpts) {return eva
   
 (execjs):1
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__500273416_95898456'
+Started GET "/" for 127.0.0.1 at 2018-06-28 17:03:57 -0700
+Started GET "/" for 127.0.0.1 at 2018-06-28 17:03:59 -0700
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (16.0ms)
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 30443ms (ActiveRecord: 0.0ms)
+
+
+  
+Completed 500 Internal Server Error in 30485ms (ActiveRecord: 0.0ms)
+
+
+ActionView::Template::Error (identifier '(function(opts, pluginOpts) {return eval(process' undefined):
+  
+    4:     <title>One Month Rails Project</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10:    <body>
+ActionView::Template::Error (identifier '(function(opts, pluginOpts) {return eval(process' undefined):
+  
+    4:     <title>One Month Rails Project</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10:    <body>
+(execjs):1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__241605992_46925784'
+  
+(execjs):1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__241605992_46925784'
+Started GET "/" for 127.0.0.1 at 2018-06-28 17:07:42 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-28 17:18:47 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3410ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::ContactUs_path):
+     9:    <body>
+    10:     <%= link_to "Home", root_path %>
+    11:     <%= link_to "About", about_path %>
+    12:     <%= link_to "Contact Us", ContactUs_path %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__241605992_45909516'
+Started GET "/ContactUs" for 127.0.0.1 at 2018-06-28 17:23:35 -0700
+Processing by PagesController#ContactUs as HTML
+  Rendering pages/ContactUs.html.erb within layouts/application
+  Rendered pages/ContactUs.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 183ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::ContactUs_path):
+     9:    <body>
+    10:     <%= link_to "Home", root_path %>
+    11:     <%= link_to "About", about_path %>
+    12:     <%= link_to "ContactUs", ContactUs_path %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__241605992_100448760'
+Started GET "/" for 127.0.0.1 at 2018-06-28 17:26:51 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 177ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::ContactUs_path):
+     9:    <body>
+    10:     <%= link_to "Home", root_path %>
+    11:     <%= link_to "About", about_path %>
+    12:     <%= link_to "ContactUs", ContactUs_path %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__241605992_75289644'
+Started GET "/" for 127.0.0.1 at 2018-07-03 10:09:59 -0700
+Started GET "/" for 127.0.0.1 at 2018-07-03 10:10:01 -0700
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (15.0ms)
+  Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 427ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 466ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::ContactUs_path):
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::ContactUs_path):
+     9:    <body>
+    10:     <%= link_to "Home", root_path %>
+    11:     <%= link_to "About", about_path %>
+    12:     <%= link_to "contact Us", ContactUs_path %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+     9:    <body>
+    10:     <%= link_to "Home", root_path %>
+    11:     <%= link_to "About", about_path %>
+    12:     <%= link_to "contact Us", ContactUs_path %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__823535787_47556036'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__823535787_47556036'
+Started GET "/" for 127.0.0.1 at 2018-07-03 10:23:54 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 112ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
